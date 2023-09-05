@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+#root {
+  background-color: rgb(35, 37, 44);
+  display: flex;
+  justify-content: center;
+  padding: 2em 0 2em 0;
+}
+#root .main {
+  width: max(35%, 20.8em);
+  background-color: rgb(26, 27, 33);
+  border-radius: 10px;
+}
+#root .main .container {
+  width: 100%;
+}
+#root .main .container .image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#root .main .section {
+  display: grid;
+  padding-inline: 1.5em;
+  gap: 0.6em;
+}
+#root .main .section .section-1 {
+  padding-block: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+#root .main .section .section-1 .name {
+  color: rgb(255, 255, 255);
+  font-size: 1.75em;
+}
+#root .main .section .section-1 .about {
+  color: rgb(243, 191, 153);
+  font-size: 0.9em;
+  font-weight: 300;
+}
+#root .main .section .section-1 .mail {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 200;
+  padding-block-start: 0.9em;
+}
+#root .main .section .contact {
+  display: flex;
+  justify-content: center;
+  gap: min(15%, 2em);
+  padding-block-end: 1em;
+}
+#root .main .section .contact a {
+  background-color: rgb(255, 255, 255);
+  color: rgb(7, 9, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6em;
+  width: min(8.2em, 115px);
+  height: 2.1em;
+  border-radius: 8px;
+}
+#root .main .section .contact .linkedin {
+  background-color: rgb(80, 147, 226);
+}
+#root .main .section .contact .linkedin .linkedin-text {
+  color: rgb(255, 255, 255) !important;
+}
+#root .main .section .section-3 {
+  display: grid;
+  gap: 1em;
+  padding-block-end: 2em;
+  padding-inline: max(4.3%, 0.73em);
+}
+#root .main .section .section-3 .about {
+  color: white;
+  width: 100%;
+}
+#root .main .section .section-3 .about .shalaye {
+  font-size: 0.8em;
+  color: rgb(220, 220, 220);
+}
+#root .main .section-4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 22, 25);
+  padding-block: 1em;
+  gap: min(7%, 2em);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}/*# sourceMappingURL=index.css.map */
